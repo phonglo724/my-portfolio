@@ -5,7 +5,6 @@ import About from "./components/About";
 import Project from "./components/Project";
 import Blog from "./components/Blog";
 import Resume from "./components/Resume";
-import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
         <Route component={Project} path="/project" />
         <Route component={Blog} path="/blog" />
         <Route component={Resume} path="/resume" />
-        <Route component={Contact} path="/contact" />
       </Switch>
     </BrowserRouter>
   )
