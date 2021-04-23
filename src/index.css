@@ -4,7 +4,7 @@
 
 .cursive {
   font-family: "Epilogue", cursive;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .pros img {
@@ -14,5 +14,24 @@
 }
 
 .home-name {
-  font-size: 150px;
+  font-size: 120px;
+  color: white;
+  text-shadow: 0 0 20px rgb(136, 131, 131);
+}
+
+.self-portrait {
+  height: 25rem;
+}
+
+/* .photo-front {
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+} */
+
+.photo-front:hover {
+  transform: rotateY(180deg);
+}
+
+.about-text {
+  font-family: "Epilogue";
 }

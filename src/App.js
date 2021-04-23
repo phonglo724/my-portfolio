@@ -3,8 +3,9 @@ import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Project from "./components/Project";
-import Blog from "./components/Blog";
+import Post from "./components/Post";
 import Resume from "./components/Resume";
+import SinglePost from "./components/SinglePost";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
         <Route component={Home} path="/" exact />
         <Route component={About} path="/about" />
         <Route component={Project} path="/project" />
-        <Route component={Blog} path="/blog" />
+        <Route component={SinglePost} path="/blog/:slug" />
+        <Route component={Post} path="/blog" />
         <Route component={Resume} path="/resume" />
       </Switch>
     </BrowserRouter>
