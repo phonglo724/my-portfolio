@@ -1,5 +1,6 @@
 import React from 'react'
 import AboutMePhoto from '../images/about-me-photo.jpg'
+import Necklace from '../images/necklace.jpeg'
 
 export default function About() {
     return (

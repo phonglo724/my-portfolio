@@ -39,6 +39,12 @@ export default function NavBar() {
                     >
                         Resume
                     </NavLink>
+                    <NavLink 
+                        to="/contact"
+                        className="inflex-flex items-center py-6 px-3 my-3 text-black-100 hover:text-gray-600 text-2xl font-bold cursive tracking-widest"
+                    >
+                        Contact
+                    </NavLink>
                 </nav>
                 <div className="inline-flex py-3 px-3 my-6">
                     <SocialIcon 
