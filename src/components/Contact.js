@@ -1,7 +1,7 @@
 import React from 'react'
 import Necklace from '../images/necklace.jpeg';
 
-export default function Resume() {
+export default function Contact() {
     return (
         <main className="bg-gray-300 min-h-screen p-12 place-items-center">
             <img src={Necklace} alt="necklace" className="rounded-full" />

@@ -30,3 +30,13 @@ Project is: work-in-progress.
 Created by [Phong Lo](https://www.linkedin.com/in/phong-lo)
 
 Feel free to contact me! :smile:
+
+<!-- 
+Website to store all of our Sanity projects: 
+www.manage.sanity.io
+
+To access Sanity Studio, do these steps:
+1) cd studio
+2) sanity start
+3) Go to browser and type in: localhost:3333/desk
+-->
