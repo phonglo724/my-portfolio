@@ -52,7 +52,7 @@ export default function Project() {
                                 <strong className="font-bold">Project Type</strong>:{" "}
                                 {project.projectType}
                             </span>
-                            <p classname="my-6 text-lg text-gray-700 leading-relax">
+                            <p className="my-6 text-lg text-gray-700 leading-relax">
                                 {project.description}
                             </p>
                             <a 
