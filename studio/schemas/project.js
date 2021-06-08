@@ -13,11 +13,11 @@ export default {
         },
         {
             name: "place",
-            type: "string"
+            type: "string",
         },
         {
             name: "description",
-            type: "text"
+            type: "text",
         },
         {
             name: "projectType",
@@ -25,8 +25,8 @@ export default {
             type: "string",
             options: {
                 list: [
-                    { value: "personal", title: "Personal"},
-                    { value: "school", title: "School"},
+                    { value: "personal", title: "Personal" },
+                    { value: "school", title: "School" },
                 ],
             },
         },
