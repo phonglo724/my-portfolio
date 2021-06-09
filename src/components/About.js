@@ -1,11 +1,30 @@
-import React from 'react'
-import AboutMePhoto from '../images/about-me-photo.jpg'
+import React, { useEffect, useState } from 'react';
+import sanityClient from '../client.js';
+import AboutMePhoto from '../images/about-me-photo.jpg';
 
 export default function About() {
+
+    const [author, setAuthor] = useState(null);
+
+    useEffect(() => {
+        sanityClient.fetch(`*[_type == "author"]{
+            name,
+            bio,
+            "authorImage": image.asset->url
+        }`).then((data) => setAuthor(data[0]))
+        .catch(console.error);
+    }, []);
+
+    if (!author) return <div>Loading...</div>
+
     return (
-        <main className="bg-gray-300 min-h-screen p-12">
-            <div className="grid grid-flow-col auto-cols-max">
-                <img src={AboutMePhoto} alt="self" className="photo-front rounded-full self-portrait ml-12 mt-12" />
+        <main className="relative bg-gray-300 min-h-screen p-12">
+            <div className="relative grid grid-flow-col auto-cols-max">
+                <img 
+                    src={AboutMePhoto} 
+                    alt="self" 
+                    className="photo-front rounded-full self-portrait ml-12 mt-12" 
+                />
                     <p className="pl-40 pt-20 about-text mt-12">
                         <strong className="text-2xl">Phong Lo</strong>
                         <br></br>
