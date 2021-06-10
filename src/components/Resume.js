@@ -20,7 +20,7 @@ export default function Resume() {
 
     return (
         <main className="bg-gray-300 min-h-screen p-12">
-            <div className="bg-gray-100 rounded-lg shadow-2xl lg:flex p-20">
+            <div className="px-16 lg:px-48 py-12 lg:py-20 prose lg:prose-xl max-w-full bg-gray-100">
                 <BlockContent 
                     blocks={resumeData.body}
                     projectId="2dgwiew2"
