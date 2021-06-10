@@ -31,7 +31,11 @@ export default function About() {
                         <strong className="text-2xl pl-8">Phong Lo</strong>
                     </h1>
                     <div className="prose lg:prose-xl text-gray-100 pl-8">
-                        <BlockContent blocks={author.bio} projectId="2dgwiew2" dataset="production" />
+                        <BlockContent 
+                            blocks={author.bio} 
+                            projectId="2dgwiew2" 
+                            dataset="production" 
+                        />
                     </div>
                 </div>
             </section>
