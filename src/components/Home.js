@@ -9,11 +9,9 @@ export default function Home() {
                 alt="Hmong Pattern" 
                 className="absolute bg-cover bg-no-repeat w-min h-screen" 
             />
-            <section className="flex justify-end mr-10 min-h-screen pt-12 lg:pt-64 px-8">
-                <h1 className="text-2xl cursive home-name">
-                    Nyob Zoo! 
-                    <br></br> 
-                    I'm Phong.
+            <section className="flex justify-end min-h-screen lg:pt-64">
+                <h1 className="home-name cursive max-w-sm md:max-w-lg">
+                    Nyob Zoo! I'm Phong and I am a full stack software engineer.
                 </h1>
             </section>
         </main>

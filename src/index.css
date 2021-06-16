@@ -14,10 +14,11 @@
 }
 
 .home-name {
-  font-size: 120px;
+  font-size: 60px;
   color: white;
   text-shadow: 0 0 20px rgb(136, 131, 131);
-  z-index: 200;
+  z-index: 100;
+  padding-right: 10rem;
 }
 
 .self-portrait {
