@@ -28,7 +28,7 @@ export default function Post() {
     return (
         <main className="bg-gray-300 min-h-screen p-12">
             <section className="container mx-auto">
-                <h1 className="text-4xl flex justify-center cursive">
+                <h1 className="text-5xl flex justify-center cursive">
                     Blog Posts
                 </h1>
                 <h2 className="text-lg text-gray-600 flex justify-center mb-12">
