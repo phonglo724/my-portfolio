@@ -6,7 +6,6 @@ import Project from "./components/Project";
 import Post from "./components/Post";
 import Resume from "./components/Resume";
 import SinglePost from "./components/SinglePost";
-import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -19,7 +18,6 @@ function App() {
         <Route component={SinglePost} path="/blog/:slug" />
         <Route component={Post} path="/blog" />
         <Route component={Resume} path="/resume" />
-        <Route component={Contact} path="/contact" />
       </Switch>
     </BrowserRouter>
   )
