@@ -3,17 +3,23 @@ import HmongWoman from "../images/hmong-woman.jpeg";
 
 export default function Home() {
     return (
-        <main className="home-background min-h-screen">
-            <img 
-                src={HmongWoman} 
-                alt="Hmong Pattern" 
-                className="absolute object-cover w-min h-screen" 
-            />
-            <section className="relative flex justify-end min-h-screen pt-12 lg:pt-64 px-8">
-                <h1 className="home-name cursive leading-snug lg:leading-relaxed md:leading-tight sd:leading-tight min-w-sm md:max-w-lg">
-                    Nyob Zoo! I'm Phong and I am a full stack software engineer.
-                </h1>
-            </section>
-        </main>
+        <div className="grid grid-cols-1 sm:px-9 sm:gap-x-8">
+            <main className="home-background min-h-screen">
+                <div className="col-start-1 row-start-1 flex sm:col-start-2 sm:row-span-2">
+                    <div className="w-full grid grid-cols-2 grid-rows-2 gap-2">
+                        <div className="relative col-span-2 row-span-2 md:col-span-2">
+                            <img 
+                                src={HmongWoman} 
+                                alt="Hmong Pattern" 
+                                className="absolute object-cover w-min h-screen" 
+                            />
+                        </div>
+                    </div>
+                </div>
+            <div className="relative grid md:col-span-2 justify-end lg:pt-32 px-6">
+                <h1 className="home-name sm:px-8 sm:my-14 sm:py-48 md:px-64 md:my-24 md:py-24">Nyob Zoo! I'm <span className="span-color">Phong Lo</span>. I am a full stack software engineer.</h1>
+            </div>
+            </main>
+        </div>
     )
 }
