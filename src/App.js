@@ -9,8 +9,9 @@ import SinglePost from "./components/SinglePost";
 
 function App() {
   return (
+    <div className="App w-screen h-screen">
     <BrowserRouter>
-    <NavBar />
+      <NavBar />
       <Switch>
         <Route component={Home} path="/" exact />
         <Route component={About} path="/about" />
@@ -20,6 +21,7 @@ function App() {
         <Route component={Resume} path="/resume" />
       </Switch>
     </BrowserRouter>
+    </div>
   )
 }
 
