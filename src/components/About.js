@@ -20,14 +20,14 @@ export default function About() {
 
     return (
         <main className="relative bg-gray-300 min-h-screen p-12">
-            <section className="bg-gray-900 rounded-lg shadow-2xl lg:flex p-20">
+            <section className="bg-gray-900 rounded-lg shadow-2xl lg:flex p-8">
                 <img 
                     src={AboutMePhoto} 
                     alt="self" 
-                    className="photo-front rounded-full self-portrait ml-12 mt-12" 
+                    className="photo-front rounded-full self-portrait self-center" 
                 />
                 <div className="text-lg flex flex-col justify-center">
-                    <h1 className="about-text text-6xl text-gray-100 mb-4">
+                    <h1 className="about-text text-4xl text-gray-100">
                         <strong className="text-2xl pl-8">Phong Lo</strong>
                     </h1>
                     <div className="prose lg:prose-xl text-gray-100 pl-8">
