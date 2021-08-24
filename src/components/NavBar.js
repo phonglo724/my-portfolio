@@ -6,7 +6,7 @@ export default function NavBar() {
     return (
         <header className="bg-gray-500">
             <div className="container mx-auto flex justify-between">
-                <nav className="flex">
+                <nav className="flex items-center justify-between">
                     <NavLink 
                         to="/" 
                         exact 
