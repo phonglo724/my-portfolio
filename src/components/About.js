@@ -24,7 +24,7 @@ export default function About() {
                 <img 
                     src={AboutMePhoto} 
                     alt="self" 
-                    className="photo-front rounded-full self-portrait self-center" 
+                    className="photo-front md:rounded-full lg:rounded-full self-portrait self-center object-scale-down" 
                 />
                 <div className="text-lg flex flex-col justify-center">
                     <h1 className="about-text text-4xl text-gray-100">

@@ -5,7 +5,7 @@ import { SocialIcon } from "react-social-icons";
 export default function NavBar() {
     return (
         <div>
-            <div className="bg-gray-500 flex items-center justify-between mx-auto">
+            <div className="bg-gray-500 flex items-center justify-around mx-auto">
                 <NavLink 
                     to="/" 
                     exact 
