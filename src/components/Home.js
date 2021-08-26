@@ -8,10 +8,10 @@ export default function Home() {
                 <img 
                     src={HmongWoman} 
                     alt="Traditional Hmong Woman" 
-                    className="absolute object-cover w-min h-screen invisible md:visible lg:visible" 
+                    className="absolute object-cover w-min h-screen visible md:visible lg:visible" 
                 />
-                <div className="relative md:text-right sm:text-right">
-                    <h1 className="home-name sm:text">Nyob Zoo! I'm <span className="span-color">Phong Lo</span>. I am a full stack software engineer.</h1>
+                <div className="relative mx-64 my-64 md:-mx-28 md:my-80 lg:mx-40 lg:-my-60 text-right sm:text-right md:text-right lg:text-right">
+                    <p className="home-name text-lg md:text-xl lg:text-2xl">Nyob Zoo! I'm <span className="span-color">Phong Lo</span>. I am a full stack software engineer.</p>
                 </div>
             </div>
         </div>
