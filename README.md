@@ -38,5 +38,7 @@ www.manage.sanity.io
 To access Sanity Studio, do these steps:
 1) cd studio
 2) sanity start
-3) Go to browser and type in: localhost:3333/desk
+3) Sign in using GitHub account
+4) Go to browser and type in: localhost:3333/desk
+5) To close out of your terminal, press: CTRL C
 -->
